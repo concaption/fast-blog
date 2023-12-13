@@ -1,5 +1,5 @@
 ### FastAPI Blog 🔥
-
+![Screenshot](/screenshot.png)
 #### Introduction
 Welcome to the FastAPI Blog 🔥 - a modern, fast (high-performance) blogging platform built with FastAPI and SQLAlchemy. This application provides a robust backend system for blog management, offering features like user authentication, blog creation, updating, deletion, and real-time blog updates.
 

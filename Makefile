@@ -15,6 +15,5 @@ refactor: format lint
 deploy:
 	# deploy goes here
 run:
-	chmod +x ./main.py &&\
-		./main.py
+	python backend/main.py
 all: install lint test format deploy

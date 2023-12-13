@@ -6,7 +6,9 @@ SQLAlchemy==2.0.23
 psycopg2==2.9.9
 alembic==1.13.0
 pydantic[email]==2.5.2
-passlib[bcrypt]==1.7.4
+passlib==1.7.4
 pytest==7.4.3
 httpx==0.25.2
 pre-commit==3.6.0
+python-jose==3.3.0
+python-multipart==0.0.6

@@ -17,5 +17,9 @@ class Settings:
     DATABASE_URL: str = "sqlite:///./sql_app.db"
     # DATABASE_URL = f"postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_SERVER}:{POSTGRES_PORT}/{POSTGRES_DB}"
 
+    SECRET_KEY: str = os.getenv("SECRET_KEY")  # new
+    ALGORITHM = "HS256"  # new
+    ACCESS_TOKEN_EXPIRE_MINUTES = 30  # in mins  #new
+
 
 settings = Settings()
